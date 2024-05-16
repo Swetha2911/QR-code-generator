@@ -1,11 +1,10 @@
 pip install qrcode
 import qrcode
 
-# Define the data you want to encode in the QR code
-data = "hai"
+# Define the data you want to encode in the QR code (text,link etc..)
+data = ""
 
 # Generate QR code
-
 qr = qrcode.QRCode(
     version=1,
     error_correction=qrcode.constants.ERROR_CORRECT_L,
